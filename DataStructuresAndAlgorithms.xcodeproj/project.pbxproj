@@ -17,6 +17,8 @@
 		C65BDE211A90FDEE0050069E /* MaxHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE201A90FDEE0050069E /* MaxHeapTests.m */; };
 		C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1B1A90FDAE0050069E /* MinHeap.m */; };
 		C65BDE231A90FF110050069E /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1E1A90FDC50050069E /* MaxHeap.m */; };
+		C65BDE261A9106570050069E /* AbstractHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE251A9106570050069E /* AbstractHeap.m */; };
+		C65BDE281A9108640050069E /* AbstractHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE251A9106570050069E /* AbstractHeap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +47,8 @@
 		C65BDE1D1A90FDC50050069E /* MaxHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxHeap.h; path = DataStructures/MaxHeap.h; sourceTree = "<group>"; };
 		C65BDE1E1A90FDC50050069E /* MaxHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaxHeap.m; path = DataStructures/MaxHeap.m; sourceTree = "<group>"; };
 		C65BDE201A90FDEE0050069E /* MaxHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxHeapTests.m; sourceTree = "<group>"; };
+		C65BDE241A9106570050069E /* AbstractHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractHeap.h; sourceTree = "<group>"; };
+		C65BDE251A9106570050069E /* AbstractHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractHeap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +100,9 @@
 		C65BDDFE1A90F10B0050069E /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				C65BDE271A91066D0050069E /* Heap */,
 				C65BDE001A90F1630050069E /* TrieNode.h */,
 				C65BDE011A90F1630050069E /* TrieNode.m */,
-				C65BDE1A1A90FDAE0050069E /* MinHeap.h */,
-				C65BDE1B1A90FDAE0050069E /* MinHeap.m */,
-				C65BDE1D1A90FDC50050069E /* MaxHeap.h */,
-				C65BDE1E1A90FDC50050069E /* MaxHeap.m */,
 			);
 			name = "Data Structures";
 			sourceTree = "<group>";
@@ -130,6 +131,19 @@
 				C65BDE0A1A90FAE70050069E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C65BDE271A91066D0050069E /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				C65BDE1A1A90FDAE0050069E /* MinHeap.h */,
+				C65BDE1B1A90FDAE0050069E /* MinHeap.m */,
+				C65BDE1D1A90FDC50050069E /* MaxHeap.h */,
+				C65BDE1E1A90FDC50050069E /* MaxHeap.m */,
+				C65BDE241A9106570050069E /* AbstractHeap.h */,
+				C65BDE251A9106570050069E /* AbstractHeap.m */,
+			);
+			name = Heap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +235,7 @@
 			files = (
 				C65BDE1F1A90FDC50050069E /* MaxHeap.m in Sources */,
 				C65BDE1C1A90FDAE0050069E /* MinHeap.m in Sources */,
+				C65BDE261A9106570050069E /* AbstractHeap.m in Sources */,
 				C65BDDF81A90F1010050069E /* main.m in Sources */,
 				C65BDE021A90F1630050069E /* TrieNode.m in Sources */,
 			);
@@ -234,6 +249,7 @@
 				C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */,
 				C65BDE0C1A90FAE70050069E /* TrieNodeTests.m in Sources */,
 				C65BDE121A90FD520050069E /* MinHeapTests.m in Sources */,
+				C65BDE281A9108640050069E /* AbstractHeap.m in Sources */,
 				C65BDE231A90FF110050069E /* MaxHeap.m in Sources */,
 				C65BDE101A90FB750050069E /* TrieNode.m in Sources */,
 			);

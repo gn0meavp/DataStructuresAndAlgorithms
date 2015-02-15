@@ -7,12 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractHeap.h"
 
-@interface MaxHeap : NSObject
-
-@property (nonatomic, strong) NSMutableArray *elements;
-
-- (void)addElement:(NSUInteger)value;
-- (NSUInteger)removeRootElement;
+@interface MaxHeap : AbstractHeap
 
 @end
