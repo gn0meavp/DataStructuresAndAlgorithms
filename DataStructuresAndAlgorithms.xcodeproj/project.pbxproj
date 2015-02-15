@@ -11,6 +11,12 @@
 		C65BDE021A90F1630050069E /* TrieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE011A90F1630050069E /* TrieNode.m */; };
 		C65BDE0C1A90FAE70050069E /* TrieNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE0B1A90FAE70050069E /* TrieNodeTests.m */; };
 		C65BDE101A90FB750050069E /* TrieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE011A90F1630050069E /* TrieNode.m */; };
+		C65BDE121A90FD520050069E /* MinHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE111A90FD520050069E /* MinHeapTests.m */; };
+		C65BDE1C1A90FDAE0050069E /* MinHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1B1A90FDAE0050069E /* MinHeap.m */; };
+		C65BDE1F1A90FDC50050069E /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1E1A90FDC50050069E /* MaxHeap.m */; };
+		C65BDE211A90FDEE0050069E /* MaxHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE201A90FDEE0050069E /* MaxHeapTests.m */; };
+		C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1B1A90FDAE0050069E /* MinHeap.m */; };
+		C65BDE231A90FF110050069E /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1E1A90FDC50050069E /* MaxHeap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +39,12 @@
 		C65BDE071A90FAE70050069E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65BDE0A1A90FAE70050069E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C65BDE0B1A90FAE70050069E /* TrieNodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrieNodeTests.m; sourceTree = "<group>"; };
+		C65BDE111A90FD520050069E /* MinHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinHeapTests.m; sourceTree = "<group>"; };
+		C65BDE1A1A90FDAE0050069E /* MinHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinHeap.h; path = DataStructures/MinHeap.h; sourceTree = "<group>"; };
+		C65BDE1B1A90FDAE0050069E /* MinHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinHeap.m; path = DataStructures/MinHeap.m; sourceTree = "<group>"; };
+		C65BDE1D1A90FDC50050069E /* MaxHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxHeap.h; path = DataStructures/MaxHeap.h; sourceTree = "<group>"; };
+		C65BDE1E1A90FDC50050069E /* MaxHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaxHeap.m; path = DataStructures/MaxHeap.m; sourceTree = "<group>"; };
+		C65BDE201A90FDEE0050069E /* MaxHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxHeapTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,10 @@
 			children = (
 				C65BDE001A90F1630050069E /* TrieNode.h */,
 				C65BDE011A90F1630050069E /* TrieNode.m */,
+				C65BDE1A1A90FDAE0050069E /* MinHeap.h */,
+				C65BDE1B1A90FDAE0050069E /* MinHeap.m */,
+				C65BDE1D1A90FDC50050069E /* MaxHeap.h */,
+				C65BDE1E1A90FDC50050069E /* MaxHeap.m */,
 			);
 			name = "Data Structures";
 			sourceTree = "<group>";
@@ -101,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				C65BDE0B1A90FAE70050069E /* TrieNodeTests.m */,
+				C65BDE111A90FD520050069E /* MinHeapTests.m */,
+				C65BDE201A90FDEE0050069E /* MaxHeapTests.m */,
 				C65BDE091A90FAE70050069E /* Supporting Files */,
 			);
 			path = Tests;
@@ -201,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65BDE1F1A90FDC50050069E /* MaxHeap.m in Sources */,
+				C65BDE1C1A90FDAE0050069E /* MinHeap.m in Sources */,
 				C65BDDF81A90F1010050069E /* main.m in Sources */,
 				C65BDE021A90F1630050069E /* TrieNode.m in Sources */,
 			);
@@ -210,7 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65BDE211A90FDEE0050069E /* MaxHeapTests.m in Sources */,
+				C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */,
 				C65BDE0C1A90FAE70050069E /* TrieNodeTests.m in Sources */,
+				C65BDE121A90FD520050069E /* MinHeapTests.m in Sources */,
+				C65BDE231A90FF110050069E /* MaxHeap.m in Sources */,
 				C65BDE101A90FB750050069E /* TrieNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +381,7 @@
 				C65BDDFD1A90F1010050069E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C65BDE0D1A90FAE70050069E /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
@@ -365,6 +390,7 @@
 				C65BDE0F1A90FAE70050069E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
