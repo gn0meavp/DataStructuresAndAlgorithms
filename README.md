@@ -5,5 +5,7 @@ Currently implemented:
   - Trie
   - Min Heap
   - Max Heap (w/ sample the kth largest element in an unsorted array)
+
+  - Running Median (w/ using Min Heap and Max Heap)
   
 See Tests for samples
