@@ -6,8 +6,9 @@
 //  Copyright (c) 2015 TestOrg. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
+#import "RunningMedian.h"
 
 @interface RunningMedianTests : XCTestCase
 
@@ -15,26 +16,16 @@
 
 @implementation RunningMedianTests
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
+- (void)testExampleOfUsage {
+    RunningMedian *median = [RunningMedian new];
+    
+    NSArray *elements = @[@2,@7,@4,@9,@1,@5,@8,@3,@6];
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
+    [elements enumerateObjectsUsingBlock:^(NSNumber *number, NSUInteger idx, BOOL *stop) {
+        [median addNumber:[number integerValue]];
     }];
+    
+    XCTAssert([median medianNumber] == 5, @"Running median for %@ should be 5", elements);
 }
 
 @end

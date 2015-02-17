@@ -19,6 +19,9 @@
 		C65BDE231A90FF110050069E /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1E1A90FDC50050069E /* MaxHeap.m */; };
 		C65BDE261A9106570050069E /* AbstractHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE251A9106570050069E /* AbstractHeap.m */; };
 		C65BDE281A9108640050069E /* AbstractHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE251A9106570050069E /* AbstractHeap.m */; };
+		C65BDE931A93D5D50050069E /* RunningMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE921A93D5D50050069E /* RunningMedian.m */; };
+		C65BDE941A93D5D50050069E /* RunningMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE921A93D5D50050069E /* RunningMedian.m */; };
+		C65BDE981A93D9400050069E /* RunningMedianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE971A93D9400050069E /* RunningMedianTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +52,9 @@
 		C65BDE201A90FDEE0050069E /* MaxHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxHeapTests.m; sourceTree = "<group>"; };
 		C65BDE241A9106570050069E /* AbstractHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractHeap.h; sourceTree = "<group>"; };
 		C65BDE251A9106570050069E /* AbstractHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractHeap.m; sourceTree = "<group>"; };
+		C65BDE911A93D5D50050069E /* RunningMedian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunningMedian.h; path = Algorithms/RunningMedian.h; sourceTree = "<group>"; };
+		C65BDE921A93D5D50050069E /* RunningMedian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunningMedian.m; path = Algorithms/RunningMedian.m; sourceTree = "<group>"; };
+		C65BDE971A93D9400050069E /* RunningMedianTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningMedianTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,8 @@
 		C65BDDFF1A90F1140050069E /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				C65BDE911A93D5D50050069E /* RunningMedian.h */,
+				C65BDE921A93D5D50050069E /* RunningMedian.m */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -117,9 +125,8 @@
 		C65BDE081A90FAE70050069E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C65BDE0B1A90FAE70050069E /* TrieNodeTests.m */,
-				C65BDE111A90FD520050069E /* MinHeapTests.m */,
-				C65BDE201A90FDEE0050069E /* MaxHeapTests.m */,
+				C65BDE961A93D8C90050069E /* UnitTests */,
+				C65BDE951A93D8BA0050069E /* Examples */,
 				C65BDE091A90FAE70050069E /* Supporting Files */,
 			);
 			path = Tests;
@@ -144,6 +151,24 @@
 				C65BDE251A9106570050069E /* AbstractHeap.m */,
 			);
 			name = Heap;
+			sourceTree = "<group>";
+		};
+		C65BDE951A93D8BA0050069E /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				C65BDE971A93D9400050069E /* RunningMedianTests.m */,
+				C65BDE0B1A90FAE70050069E /* TrieNodeTests.m */,
+				C65BDE111A90FD520050069E /* MinHeapTests.m */,
+				C65BDE201A90FDEE0050069E /* MaxHeapTests.m */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+		C65BDE961A93D8C90050069E /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65BDE1F1A90FDC50050069E /* MaxHeap.m in Sources */,
+				C65BDE931A93D5D50050069E /* RunningMedian.m in Sources */,
 				C65BDE1C1A90FDAE0050069E /* MinHeap.m in Sources */,
 				C65BDE261A9106570050069E /* AbstractHeap.m in Sources */,
 				C65BDDF81A90F1010050069E /* main.m in Sources */,
@@ -246,10 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65BDE211A90FDEE0050069E /* MaxHeapTests.m in Sources */,
+				C65BDE941A93D5D50050069E /* RunningMedian.m in Sources */,
 				C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */,
 				C65BDE0C1A90FAE70050069E /* TrieNodeTests.m in Sources */,
 				C65BDE121A90FD520050069E /* MinHeapTests.m in Sources */,
 				C65BDE281A9108640050069E /* AbstractHeap.m in Sources */,
+				C65BDE981A93D9400050069E /* RunningMedianTests.m in Sources */,
 				C65BDE231A90FF110050069E /* MaxHeap.m in Sources */,
 				C65BDE101A90FB750050069E /* TrieNode.m in Sources */,
 			);

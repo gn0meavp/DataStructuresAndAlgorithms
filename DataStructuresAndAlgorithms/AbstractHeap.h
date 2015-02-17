@@ -21,6 +21,7 @@ NSUInteger rightChildForIndex(NSUInteger index);
 - (NSArray *)elements;
 
 - (void)addElement:(NSUInteger)value;
+- (NSUInteger)rootValue;
 - (NSUInteger)removeRootElement;
 
 @end

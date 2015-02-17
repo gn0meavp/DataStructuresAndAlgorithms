@@ -10,4 +10,7 @@
 
 @interface RunningMedian : NSObject
 
+- (void)addNumber:(NSUInteger)number;
+- (NSUInteger)medianNumber;
+
 @end

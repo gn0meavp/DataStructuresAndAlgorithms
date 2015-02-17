@@ -55,6 +55,17 @@ NSUInteger rightChildForIndex(NSUInteger index) {
     //    NSLog(@"%@", self.elements);
 }
 
+- (NSUInteger)rootValue {
+    if ([self.elements count] == 0) {
+        NSException *exception = [NSException exceptionWithName:@"OutOfBoundsException" reason:@"There's no rootValue in empty heap!" userInfo:nil];
+        [exception raise];
+        
+        return UINT_MAX;
+    }
+    
+    return [self.elements[0] integerValue];
+}
+
 - (NSUInteger)removeRootElement {
     NSUInteger returnValue = [self.elements[0] integerValue];
     
