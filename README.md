@@ -8,5 +8,6 @@ Currently implemented:
   - Graph
 
   - Running Median (w/ using Min Heap and Max Heap)
+  - Topological Sorting
   
 See Tests for samples
