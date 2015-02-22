@@ -9,7 +9,7 @@
 #import "GraphNode.h"
 
 @interface GraphNode ()
-@property (nonatomic, strong) NSMutableSet *nodes;
+@property (nonatomic, strong) NSMutableArray *nodes;
 @property (nonatomic, strong) NSString *value;
 @end
 
@@ -24,9 +24,13 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _nodes = [NSMutableSet set];
+        _nodes = [NSMutableArray array];
     }
     return self;
+}
+
+- (NSString *)description {
+    return self.value;
 }
 
 - (void)addConnection:(GraphNode *)node {
@@ -41,7 +45,7 @@
     return _value;
 }
 
-- (NSSet *)connections {
+- (NSArray *)connections {
     return [self.nodes copy];
 }
 

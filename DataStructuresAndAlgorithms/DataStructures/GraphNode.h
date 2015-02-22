@@ -16,6 +16,6 @@
 - (void)removeConnection:(GraphNode *)node;
 
 - (NSString *)value;
-- (NSSet *)connections;
+- (NSArray *)connections;
 
 @end

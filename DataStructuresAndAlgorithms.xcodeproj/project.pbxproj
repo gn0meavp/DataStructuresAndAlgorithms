@@ -11,6 +11,9 @@
 		C646F68D1A99FDBF0049AB5B /* GraphNodeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F68C1A99FDBF0049AB5B /* GraphNodeSampleTests.m */; };
 		C646F68E1A99FE6F0049AB5B /* GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F6871A99FD330049AB5B /* GraphNode.m */; };
 		C646F6901A99FF0D0049AB5B /* GraphNodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F68F1A99FF0D0049AB5B /* GraphNodeTest.m */; };
+		C646F6931A9A005B0049AB5B /* TopologicalSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F6921A9A005B0049AB5B /* TopologicalSorting.m */; };
+		C646F6941A9A005B0049AB5B /* TopologicalSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F6921A9A005B0049AB5B /* TopologicalSorting.m */; };
+		C646F6961A9A08600049AB5B /* TopologicalSortingSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F6951A9A08600049AB5B /* TopologicalSortingSampleTests.m */; };
 		C65BDDF81A90F1010050069E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDDF71A90F1010050069E /* main.m */; };
 		C65BDE021A90F1630050069E /* TrieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE011A90F1630050069E /* TrieNode.m */; };
 		C65BDE0C1A90FAE70050069E /* TrieNodeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE0B1A90FAE70050069E /* TrieNodeSampleTests.m */; };
@@ -45,6 +48,9 @@
 		C646F6871A99FD330049AB5B /* GraphNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphNode.m; path = DataStructures/GraphNode.m; sourceTree = "<group>"; };
 		C646F68C1A99FDBF0049AB5B /* GraphNodeSampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNodeSampleTests.m; sourceTree = "<group>"; };
 		C646F68F1A99FF0D0049AB5B /* GraphNodeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNodeTest.m; sourceTree = "<group>"; };
+		C646F6911A9A005B0049AB5B /* TopologicalSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopologicalSorting.h; path = Algorithms/TopologicalSorting.h; sourceTree = "<group>"; };
+		C646F6921A9A005B0049AB5B /* TopologicalSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopologicalSorting.m; path = Algorithms/TopologicalSorting.m; sourceTree = "<group>"; };
+		C646F6951A9A08600049AB5B /* TopologicalSortingSampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopologicalSortingSampleTests.m; sourceTree = "<group>"; };
 		C65BDDF41A90F1010050069E /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65BDDF71A90F1010050069E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C65BDE001A90F1630050069E /* TrieNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrieNode.h; path = DataStructures/TrieNode.h; sourceTree = "<group>"; };
@@ -136,6 +142,8 @@
 			children = (
 				C65BDE911A93D5D50050069E /* RunningMedian.h */,
 				C65BDE921A93D5D50050069E /* RunningMedian.m */,
+				C646F6911A9A005B0049AB5B /* TopologicalSorting.h */,
+				C646F6921A9A005B0049AB5B /* TopologicalSorting.m */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -179,6 +187,7 @@
 				C65BDE111A90FD520050069E /* MinHeapSampleTests.m */,
 				C65BDE201A90FDEE0050069E /* MaxHeapSampleTests.m */,
 				C646F68C1A99FDBF0049AB5B /* GraphNodeSampleTests.m */,
+				C646F6951A9A08600049AB5B /* TopologicalSortingSampleTests.m */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -280,6 +289,7 @@
 			files = (
 				C65BDE1F1A90FDC50050069E /* MaxHeap.m in Sources */,
 				C65BDE931A93D5D50050069E /* RunningMedian.m in Sources */,
+				C646F6931A9A005B0049AB5B /* TopologicalSorting.m in Sources */,
 				C646F6881A99FD330049AB5B /* GraphNode.m in Sources */,
 				C65BDE1C1A90FDAE0050069E /* MinHeap.m in Sources */,
 				C65BDE261A9106570050069E /* AbstractHeap.m in Sources */,
@@ -294,6 +304,7 @@
 			files = (
 				C646F68E1A99FE6F0049AB5B /* GraphNode.m in Sources */,
 				C646F68D1A99FDBF0049AB5B /* GraphNodeSampleTests.m in Sources */,
+				C646F6961A9A08600049AB5B /* TopologicalSortingSampleTests.m in Sources */,
 				C65BDE211A90FDEE0050069E /* MaxHeapSampleTests.m in Sources */,
 				C65BDE941A93D5D50050069E /* RunningMedian.m in Sources */,
 				C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */,
@@ -302,6 +313,7 @@
 				C65BDE281A9108640050069E /* AbstractHeap.m in Sources */,
 				C65BDE981A93D9400050069E /* RunningMedianSampleTests.m in Sources */,
 				C65BDE231A90FF110050069E /* MaxHeap.m in Sources */,
+				C646F6941A9A005B0049AB5B /* TopologicalSorting.m in Sources */,
 				C646F6901A99FF0D0049AB5B /* GraphNodeTest.m in Sources */,
 				C65BDE101A90FB750050069E /* TrieNode.m in Sources */,
 			);
