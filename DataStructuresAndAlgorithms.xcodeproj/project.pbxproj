@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C646F6881A99FD330049AB5B /* GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F6871A99FD330049AB5B /* GraphNode.m */; };
+		C646F68D1A99FDBF0049AB5B /* GraphNodeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F68C1A99FDBF0049AB5B /* GraphNodeSampleTests.m */; };
+		C646F68E1A99FE6F0049AB5B /* GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F6871A99FD330049AB5B /* GraphNode.m */; };
+		C646F6901A99FF0D0049AB5B /* GraphNodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C646F68F1A99FF0D0049AB5B /* GraphNodeTest.m */; };
 		C65BDDF81A90F1010050069E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDDF71A90F1010050069E /* main.m */; };
 		C65BDE021A90F1630050069E /* TrieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE011A90F1630050069E /* TrieNode.m */; };
-		C65BDE0C1A90FAE70050069E /* TrieNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE0B1A90FAE70050069E /* TrieNodeTests.m */; };
+		C65BDE0C1A90FAE70050069E /* TrieNodeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE0B1A90FAE70050069E /* TrieNodeSampleTests.m */; };
 		C65BDE101A90FB750050069E /* TrieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE011A90F1630050069E /* TrieNode.m */; };
-		C65BDE121A90FD520050069E /* MinHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE111A90FD520050069E /* MinHeapTests.m */; };
+		C65BDE121A90FD520050069E /* MinHeapSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE111A90FD520050069E /* MinHeapSampleTests.m */; };
 		C65BDE1C1A90FDAE0050069E /* MinHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1B1A90FDAE0050069E /* MinHeap.m */; };
 		C65BDE1F1A90FDC50050069E /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1E1A90FDC50050069E /* MaxHeap.m */; };
-		C65BDE211A90FDEE0050069E /* MaxHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE201A90FDEE0050069E /* MaxHeapTests.m */; };
+		C65BDE211A90FDEE0050069E /* MaxHeapSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE201A90FDEE0050069E /* MaxHeapSampleTests.m */; };
 		C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1B1A90FDAE0050069E /* MinHeap.m */; };
 		C65BDE231A90FF110050069E /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE1E1A90FDC50050069E /* MaxHeap.m */; };
 		C65BDE261A9106570050069E /* AbstractHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE251A9106570050069E /* AbstractHeap.m */; };
 		C65BDE281A9108640050069E /* AbstractHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE251A9106570050069E /* AbstractHeap.m */; };
 		C65BDE931A93D5D50050069E /* RunningMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE921A93D5D50050069E /* RunningMedian.m */; };
 		C65BDE941A93D5D50050069E /* RunningMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE921A93D5D50050069E /* RunningMedian.m */; };
-		C65BDE981A93D9400050069E /* RunningMedianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE971A93D9400050069E /* RunningMedianTests.m */; };
+		C65BDE981A93D9400050069E /* RunningMedianSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE971A93D9400050069E /* RunningMedianSampleTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,24 +41,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C646F6861A99FD330049AB5B /* GraphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphNode.h; path = DataStructures/GraphNode.h; sourceTree = "<group>"; };
+		C646F6871A99FD330049AB5B /* GraphNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphNode.m; path = DataStructures/GraphNode.m; sourceTree = "<group>"; };
+		C646F68C1A99FDBF0049AB5B /* GraphNodeSampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNodeSampleTests.m; sourceTree = "<group>"; };
+		C646F68F1A99FF0D0049AB5B /* GraphNodeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNodeTest.m; sourceTree = "<group>"; };
 		C65BDDF41A90F1010050069E /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65BDDF71A90F1010050069E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C65BDE001A90F1630050069E /* TrieNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrieNode.h; path = DataStructures/TrieNode.h; sourceTree = "<group>"; };
 		C65BDE011A90F1630050069E /* TrieNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrieNode.m; path = DataStructures/TrieNode.m; sourceTree = "<group>"; };
 		C65BDE071A90FAE70050069E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65BDE0A1A90FAE70050069E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C65BDE0B1A90FAE70050069E /* TrieNodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrieNodeTests.m; sourceTree = "<group>"; };
-		C65BDE111A90FD520050069E /* MinHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinHeapTests.m; sourceTree = "<group>"; };
+		C65BDE0B1A90FAE70050069E /* TrieNodeSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrieNodeSampleTests.m; sourceTree = "<group>"; };
+		C65BDE111A90FD520050069E /* MinHeapSampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinHeapSampleTests.m; sourceTree = "<group>"; };
 		C65BDE1A1A90FDAE0050069E /* MinHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinHeap.h; path = DataStructures/MinHeap.h; sourceTree = "<group>"; };
 		C65BDE1B1A90FDAE0050069E /* MinHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinHeap.m; path = DataStructures/MinHeap.m; sourceTree = "<group>"; };
 		C65BDE1D1A90FDC50050069E /* MaxHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxHeap.h; path = DataStructures/MaxHeap.h; sourceTree = "<group>"; };
 		C65BDE1E1A90FDC50050069E /* MaxHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaxHeap.m; path = DataStructures/MaxHeap.m; sourceTree = "<group>"; };
-		C65BDE201A90FDEE0050069E /* MaxHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxHeapTests.m; sourceTree = "<group>"; };
+		C65BDE201A90FDEE0050069E /* MaxHeapSampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxHeapSampleTests.m; sourceTree = "<group>"; };
 		C65BDE241A9106570050069E /* AbstractHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractHeap.h; sourceTree = "<group>"; };
 		C65BDE251A9106570050069E /* AbstractHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractHeap.m; sourceTree = "<group>"; };
 		C65BDE911A93D5D50050069E /* RunningMedian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunningMedian.h; path = Algorithms/RunningMedian.h; sourceTree = "<group>"; };
 		C65BDE921A93D5D50050069E /* RunningMedian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunningMedian.m; path = Algorithms/RunningMedian.m; sourceTree = "<group>"; };
-		C65BDE971A93D9400050069E /* RunningMedianTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningMedianTests.m; sourceTree = "<group>"; };
+		C65BDE971A93D9400050069E /* RunningMedianSampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningMedianSampleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C646F6851A99FD000049AB5B /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				C646F6861A99FD330049AB5B /* GraphNode.h */,
+				C646F6871A99FD330049AB5B /* GraphNode.m */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
 		C65BDDEB1A90F1010050069E = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +123,7 @@
 		C65BDDFE1A90F10B0050069E /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				C646F6851A99FD000049AB5B /* Graph */,
 				C65BDE271A91066D0050069E /* Heap */,
 				C65BDE001A90F1630050069E /* TrieNode.h */,
 				C65BDE011A90F1630050069E /* TrieNode.m */,
@@ -156,10 +174,11 @@
 		C65BDE951A93D8BA0050069E /* Examples */ = {
 			isa = PBXGroup;
 			children = (
-				C65BDE971A93D9400050069E /* RunningMedianTests.m */,
-				C65BDE0B1A90FAE70050069E /* TrieNodeTests.m */,
-				C65BDE111A90FD520050069E /* MinHeapTests.m */,
-				C65BDE201A90FDEE0050069E /* MaxHeapTests.m */,
+				C65BDE971A93D9400050069E /* RunningMedianSampleTests.m */,
+				C65BDE0B1A90FAE70050069E /* TrieNodeSampleTests.m */,
+				C65BDE111A90FD520050069E /* MinHeapSampleTests.m */,
+				C65BDE201A90FDEE0050069E /* MaxHeapSampleTests.m */,
+				C646F68C1A99FDBF0049AB5B /* GraphNodeSampleTests.m */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -167,6 +186,7 @@
 		C65BDE961A93D8C90050069E /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				C646F68F1A99FF0D0049AB5B /* GraphNodeTest.m */,
 			);
 			name = UnitTests;
 			sourceTree = "<group>";
@@ -260,6 +280,7 @@
 			files = (
 				C65BDE1F1A90FDC50050069E /* MaxHeap.m in Sources */,
 				C65BDE931A93D5D50050069E /* RunningMedian.m in Sources */,
+				C646F6881A99FD330049AB5B /* GraphNode.m in Sources */,
 				C65BDE1C1A90FDAE0050069E /* MinHeap.m in Sources */,
 				C65BDE261A9106570050069E /* AbstractHeap.m in Sources */,
 				C65BDDF81A90F1010050069E /* main.m in Sources */,
@@ -271,14 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65BDE211A90FDEE0050069E /* MaxHeapTests.m in Sources */,
+				C646F68E1A99FE6F0049AB5B /* GraphNode.m in Sources */,
+				C646F68D1A99FDBF0049AB5B /* GraphNodeSampleTests.m in Sources */,
+				C65BDE211A90FDEE0050069E /* MaxHeapSampleTests.m in Sources */,
 				C65BDE941A93D5D50050069E /* RunningMedian.m in Sources */,
 				C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */,
-				C65BDE0C1A90FAE70050069E /* TrieNodeTests.m in Sources */,
-				C65BDE121A90FD520050069E /* MinHeapTests.m in Sources */,
+				C65BDE0C1A90FAE70050069E /* TrieNodeSampleTests.m in Sources */,
+				C65BDE121A90FD520050069E /* MinHeapSampleTests.m in Sources */,
 				C65BDE281A9108640050069E /* AbstractHeap.m in Sources */,
-				C65BDE981A93D9400050069E /* RunningMedianTests.m in Sources */,
+				C65BDE981A93D9400050069E /* RunningMedianSampleTests.m in Sources */,
 				C65BDE231A90FF110050069E /* MaxHeap.m in Sources */,
+				C646F6901A99FF0D0049AB5B /* GraphNodeTest.m in Sources */,
 				C65BDE101A90FB750050069E /* TrieNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
