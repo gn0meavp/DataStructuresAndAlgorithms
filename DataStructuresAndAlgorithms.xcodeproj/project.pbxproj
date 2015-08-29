@@ -29,6 +29,9 @@
 		C65BDE931A93D5D50050069E /* RunningMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE921A93D5D50050069E /* RunningMedian.m */; };
 		C65BDE941A93D5D50050069E /* RunningMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE921A93D5D50050069E /* RunningMedian.m */; };
 		C65BDE981A93D9400050069E /* RunningMedianSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65BDE971A93D9400050069E /* RunningMedianSampleTests.m */; };
+		C6669D741AA6051C009A484E /* DijkstraAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = C6669D731AA6051C009A484E /* DijkstraAlgorithm.m */; };
+		C6669D771AA6091B009A484E /* DijkstraAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = C6669D731AA6051C009A484E /* DijkstraAlgorithm.m */; };
+		C6669D791AA60A1B009A484E /* DijkstraAlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6669D781AA60A1B009A484E /* DijkstraAlgorithmTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +72,9 @@
 		C65BDE911A93D5D50050069E /* RunningMedian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunningMedian.h; path = Algorithms/RunningMedian.h; sourceTree = "<group>"; };
 		C65BDE921A93D5D50050069E /* RunningMedian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunningMedian.m; path = Algorithms/RunningMedian.m; sourceTree = "<group>"; };
 		C65BDE971A93D9400050069E /* RunningMedianSampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningMedianSampleTests.m; sourceTree = "<group>"; };
+		C6669D721AA6051C009A484E /* DijkstraAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DijkstraAlgorithm.h; path = Algorithms/DijkstraAlgorithm.h; sourceTree = "<group>"; };
+		C6669D731AA6051C009A484E /* DijkstraAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DijkstraAlgorithm.m; path = Algorithms/DijkstraAlgorithm.m; sourceTree = "<group>"; };
+		C6669D781AA60A1B009A484E /* DijkstraAlgorithmTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DijkstraAlgorithmTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,8 @@
 				C65BDE921A93D5D50050069E /* RunningMedian.m */,
 				C646F6911A9A005B0049AB5B /* TopologicalSorting.h */,
 				C646F6921A9A005B0049AB5B /* TopologicalSorting.m */,
+				C6669D721AA6051C009A484E /* DijkstraAlgorithm.h */,
+				C6669D731AA6051C009A484E /* DijkstraAlgorithm.m */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 				C65BDE201A90FDEE0050069E /* MaxHeapSampleTests.m */,
 				C646F68C1A99FDBF0049AB5B /* GraphNodeSampleTests.m */,
 				C646F6951A9A08600049AB5B /* TopologicalSortingSampleTests.m */,
+				C6669D781AA60A1B009A484E /* DijkstraAlgorithmTests.m */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -294,6 +303,7 @@
 				C65BDE1C1A90FDAE0050069E /* MinHeap.m in Sources */,
 				C65BDE261A9106570050069E /* AbstractHeap.m in Sources */,
 				C65BDDF81A90F1010050069E /* main.m in Sources */,
+				C6669D741AA6051C009A484E /* DijkstraAlgorithm.m in Sources */,
 				C65BDE021A90F1630050069E /* TrieNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C646F68E1A99FE6F0049AB5B /* GraphNode.m in Sources */,
+				C6669D771AA6091B009A484E /* DijkstraAlgorithm.m in Sources */,
 				C646F68D1A99FDBF0049AB5B /* GraphNodeSampleTests.m in Sources */,
 				C646F6961A9A08600049AB5B /* TopologicalSortingSampleTests.m in Sources */,
 				C65BDE211A90FDEE0050069E /* MaxHeapSampleTests.m in Sources */,
@@ -310,6 +321,7 @@
 				C65BDE221A90FF0F0050069E /* MinHeap.m in Sources */,
 				C65BDE0C1A90FAE70050069E /* TrieNodeSampleTests.m in Sources */,
 				C65BDE121A90FD520050069E /* MinHeapSampleTests.m in Sources */,
+				C6669D791AA60A1B009A484E /* DijkstraAlgorithmTests.m in Sources */,
 				C65BDE281A9108640050069E /* AbstractHeap.m in Sources */,
 				C65BDE981A93D9400050069E /* RunningMedianSampleTests.m in Sources */,
 				C65BDE231A90FF110050069E /* MaxHeap.m in Sources */,
